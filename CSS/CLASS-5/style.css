@@ -1,0 +1,48 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 16px;
+}
+
+body {
+    background-color:black  ;
+    color: beige;
+}
+ .container {
+    max-width: 1200px;
+    border: 3px solid white;
+ }
+  .box {
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+  }
+   #static {
+    background-color: red;
+    position: static;
+   }
+   #relative{
+    background-color: blueviolet;
+    position: relative;
+    left: 100px;
+   }
+   
+   #absolute {
+    background-color: aqua;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+
+   }
+
+   #fixed{
+    background-color: yellow;
+    position: fixed;
+    
+   }
+    
